@@ -87,7 +87,7 @@ function checkMatch() {
       winSound.play();
 
       setTimeout(() => {
-        alert("🎉 ¡Sobreviviste al horror!");
+        alert("🎉 ¡Sobreviviste!");
       }, 800);
     }
   } else {
@@ -105,3 +105,4 @@ function checkMatch() {
 resetBtn.addEventListener("click", () => {
   window.location.reload();
 });
+
